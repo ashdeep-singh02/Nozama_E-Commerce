@@ -12,7 +12,7 @@ The app was dockerized inorder to host on an AWS EC2 Instance.
 
 Implemented a microservices architecture during design/construction of application.
 
-## Utilization of AWS
+## Integration of AWS
 AWS Cognito was used to help Nozama authenticate its new/returning users. 
 
 AWS DynamoDB was used to help Nozama store user cart data. When a logged-in user decides to add/remove an item from their cart, their updated cart is stored in DynamoDB. If the user decides to log out and log back in sometime in the future, their cart data will be re-rendered and allow them to continue their shopping right where they left off! 
